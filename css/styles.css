@@ -1,0 +1,158 @@
+
+
+html, body, div, span, h1, h2, h3,p, ol, ul, li,header, menu, nav, section 
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+p
+{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+ol, ul 
+{
+	list-style: none;
+}
+
+
+
+footer, header, menu, nav, section 
+{
+	display: block;
+}
+
+.group1 
+{
+	float: left;
+	width: 100%;
+	background: transparent;
+	padding: 15px;
+	margin-bottom: 10px;
+	font: 900;
+}
+
+.group2 
+{
+	float: left;
+	width: 100%;
+	position: relative;
+	background: white;
+	padding: 15px;
+	margin-bottom: 10px;
+	height: 300px;
+}
+
+
+.container 
+{
+   width: 980px;
+   margin: 0 auto;
+   background-color:white;
+}
+
+	
+
+nav 
+{
+	position: absolute;
+	width: 570px;
+	top: 20px;
+	left: 510px;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+nav ul li 
+{
+	float: left;
+	margin-left: 26px;
+	line-height: normal;
+}
+
+nav ul li a
+{
+	font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-weight: normal;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	background-color: transparent;
+	margin-top: 5px;
+	margin-right: 6px;
+   text-decoration: none;
+   
+}
+
+nav ul li a:hover
+ {
+	color: darkorange;
+}
+
+nav ul li a::active
+ {
+	 font-size: 150%;
+ }
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img
+   {
+      width: 100%;
+      margin: auto;
+  }
+
+  .button 
+  {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 11px;
+  padding: 20px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after 
+{
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
